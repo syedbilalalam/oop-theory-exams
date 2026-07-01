@@ -1,10 +1,7 @@
 package oop.theory.practice;
 
 
-import java.util.Arrays;
-import java.util.Scanner;
-
-class Main {
+class PreMid {
     public static void main(String[] args) {
         // There are total of eight primitive data types in Java
         // byte, short, int, long, double, float, boolean, char
