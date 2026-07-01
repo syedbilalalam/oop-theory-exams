@@ -18,7 +18,7 @@ class Main {
 
         // Explicit typecasting
 //        int y = (int) 10.0;
-//        short z = (short) 10;
+//        short z = (short) 10.0;
 
         // Relational operators
 //        if (a < b || a > b || a <= b || a >= b || a != b || a == b) {
@@ -115,12 +115,12 @@ class Main {
 
         // Continue and break in loops
 //        for (int i = 0; i < 10; i++) {
-//            if (i >= 5) {
+//            if (i == 5) {
 //                break;
 //            }
 //            System.out.println("This loop will run only 6 times");
 //        }
-
+//
 //        for (int i = 0; i < 10; i++) {
 //            if (i == 5) {
 //                continue;
@@ -139,6 +139,7 @@ class Main {
 //        for (int i = 0; i < randomArr.length; i++) {
 //            randomArr[i] = (int) (Math.random() * 12); // Assigns random value between 0 and 11
 //        }
+//        System.out.println(Arrays.toString(randomArr));
 
         // Shuffling of an array
 //        int[] myArr = {1,2,3,4,5};
@@ -309,12 +310,12 @@ class Main {
 //        System.out.println("Part of it using substring: " + partOfIt);
 
         // Declaring and assigning object EXAMPLE#1
-        Scanner scanner;                    // Declaration
-        scanner = new Scanner(System.in);   // Initialization
+//        Scanner scanner;                    // Declaration
+//        scanner = new Scanner(System.in);   // Initialization
 
         // Declaring and assigning object EXAMPLE#2
-        String str;                                     // Declaration
-        str = new String("This is an example"); // Initialization
+//        String str;                               // Declaration
+//        str = new String("This is an example");   // Initialization
 
         // Calling static method due to we are in static method of main
 //        System.out.println("Adder method for 1,2: " + add(1,2));
