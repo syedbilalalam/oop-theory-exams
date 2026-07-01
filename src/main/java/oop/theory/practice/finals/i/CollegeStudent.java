@@ -1,6 +1,6 @@
-package oop.theory.practice.finals;
+package oop.theory.practice.finals.i;
 
-public class CollegeStudent extends Student implements Person{
+public class CollegeStudent extends Student implements Person {
     private int collegeId;
     private double metricPercentage;
 

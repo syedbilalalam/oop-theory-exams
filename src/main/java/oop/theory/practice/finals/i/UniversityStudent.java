@@ -1,4 +1,4 @@
-package oop.theory.practice.finals;
+package oop.theory.practice.finals.i;
 
 public class UniversityStudent extends Student implements Person {
     private int idCardNo;

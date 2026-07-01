@@ -1,4 +1,4 @@
-package oop.theory.practice.finals;
+package oop.theory.practice.finals.i;
 
 public interface Consts {
     // Interface variable can be treated as constants

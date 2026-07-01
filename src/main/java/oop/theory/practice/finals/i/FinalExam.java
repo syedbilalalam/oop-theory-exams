@@ -1,4 +1,4 @@
-package oop.theory.practice.finals;
+package oop.theory.practice.finals.i;
 
 public class FinalExam {
     public static void main(String[] args) {

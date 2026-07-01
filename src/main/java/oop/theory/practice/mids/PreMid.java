@@ -1,4 +1,4 @@
-package oop.theory.practice;
+package oop.theory.practice.mids;
 
 
 class PreMid {

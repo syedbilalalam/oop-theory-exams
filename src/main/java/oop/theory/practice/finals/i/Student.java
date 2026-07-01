@@ -1,4 +1,4 @@
-package oop.theory.practice.finals;
+package oop.theory.practice.finals.i;
 
 public abstract class Student {
     // Class variables
@@ -24,7 +24,7 @@ public abstract class Student {
     // Constructor 3rd overload. Object as parameter.
     public Student(Student that) {
         this.name = that.name;
-        this.age = that.age;
+        this.age = that.getAge();
         this.rollNo = that.rollNo;
     }
 
@@ -35,7 +35,7 @@ public abstract class Student {
     }
     // Method overloading (compiled time polymorphism) OVERLOAD#2
     final public void showInfo(String title) {  // final means this method will never override
-        System.out.println(title);
+        System.out.println("Title: " + title);
         this.showInfo();
     }
 
