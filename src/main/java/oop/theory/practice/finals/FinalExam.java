@@ -9,6 +9,7 @@ public class FinalExam {
         Student[] students = {
                 new CollegeStudent("Bilal", 17, "C63", 1, 84),
                 new UniversityStudent("Bilal", 80, "BSE-115", 2, 1),
+                new UniversityStudent()
         };
 
         // Using each object and there methods
